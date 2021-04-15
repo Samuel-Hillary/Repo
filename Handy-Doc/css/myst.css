@@ -1,0 +1,177 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+.search{
+    margin: 1rem 1rem solid;
+    width: 80%;
+    padding: 10px 20px 0px 0px;
+    margin: 0.5rem 0;
+    background-color: rgb(241, 227, 227);
+    display: inline-block;
+    border: 0.4rem solid rgb(83, 41, 5);
+    border-radius: 2rem;
+    box-sizing: border-box;
+    color: rgb(204, 24, 24) solid;
+}
+.search-button{
+    font-size: 2rem;
+    width: 4rem;
+    border: 0px;
+  
+}
+.search-button:hover{
+    background: rgba(221, 22, 22, 0.308);
+    position: fixed;
+   
+}/**
+.nav-bar {
+    /* background-color: rgb(50, 142, 158); *
+    height: 29%;
+    width: 100%;
+    float: left;
+  }
+  nav a {
+    color: white;
+    margin: 2rem;
+    text-decoration: none;
+    font-size: 3rem;
+  }
+  nav a:hover {
+    background: tomato;
+  }
+  .dropdown-content:hover{
+      background: rgb(185, 185, 171);
+  }
+}
+.search{
+    width: 50%;
+    margin:2px black solid;
+}
+* {
+    box-sizing: border-box;
+  }**/
+  nav ul{
+    float: right;
+    padding: 1rem;
+    list-style: none;
+    display: block;
+}
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: rgb(92, 74, 74);
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+  display: flex;
+}
+nav ul{
+    float: right;
+    padding: 1rem;
+    list-style: none;
+    display: block;
+}
+nav a {
+    color: rgb(55, 94, 112);
+    margin: 0rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+/* Style the list inside the menu */
+/* nav ul {
+    list-style-type: none;
+    padding: 0;
+  } */
+  /* Container for flexboxes */
+
+  h3{
+      font-size: 3rem;
+      color: rgb(129, 38, 22);
+  }
+  
+  /* Style the content */
+ /**article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    /* flex: 3
+    background-color: #f1f1f1;
+    padding: 10px;**/
+  
+}
+.main{
+    display: grid;
+    grid-template-columns: 300px 300px 50%;
+}
+  
+  .article{
+    background:rgb(70, 52, 29);
+  /* aligncontent: flex-end; */
+  /* border: solid; */
+}
+.content{
+    background:rgb(97, 59, 10);
+  /* aligncontent: flex-end; */
+  /* border: solid; */
+}
+.sports{
+    background:rgb(214, 158, 84);
+    /* aligncontent: flex-end; */
+}
+
+  .aside{
+    display: flex;
+    justify-content: flex-start; 
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin: 4rem;
+    border: black solid;
+    height: 30rem;
+    width: 30%;
+    flex-wrap:wrap ;
+  }
+  .more{
+      padding: 1rem;
+      border-radius: 0rem 2rem;
+      background: rgb(73, 55, 42);
+      font-size: 1rem;
+      text-align: center;
+      /* display: flex; */
+      /* justify-content: flex-end; */
+      /* flex-wr: right; */
+  }
+ .more:hover{
+      background: rgb(139, 94, 94);
+  }
+/* Style the footer */
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    position: relative;
+  }
+  
+  /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+  /* @media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }   */
